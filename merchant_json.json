@@ -1,0 +1,148 @@
+{
+  "merchant_id": "M0001",
+  "merchant_profile": {
+    "risk_model_score": 0.01967239,
+    "risk_classification": "Low",
+    "model_classification": "L",
+    "risk_score": 0.625,
+    "merchant_classification": "L",
+    "aml_classification": 0,
+    "final_merchant_classification": "L",
+    "fraud_risk_metrics": {
+      "success_rate_txn_count_based": "Not Specified",
+      "reported_fraud_transaction_count": "Not Specified",
+      "reported_fraud_transaction_amount": "Not Specified",
+      "count_of_users_reported_fraud": "Not Specified",
+      "fraud_ats": "Not Specified",
+      "chargeback_amount": "Not Specified",
+      "chargeback_count": "Not Specified",
+      "accepted_chargeback_amount": "Not Specified",
+      "accepted_chargeback_count": "Not Specified"
+    },
+    "suspicious_behavior": {
+      "suspicious_location_flag": 18,
+      "store_verified": "APPROVED",
+      "active_days_ratio_90d": 0.8,
+      "risk_display_name_flag": 0
+    },
+    "rule_block_metrics": {
+      "fraud_rules": "Not Specified",
+      "compliance_rules": "Not Specified",
+      "preventive_rules": "Not Specified",
+      "business_rules": "Not Specified"
+    },
+    "non_peak_hour_contribution": "Not Specified",
+    "top_rules_that_impacted_mx": "NA",
+    "onboarding_behavior": {
+      "fos_id": "PPI Masked",
+      "risk_tag": "NotRisky"
+    },
+    "smart_speaker_enabled": 1,
+    "edc_enabled": 0,
+    "edc_deployment_date": "Not Specified",
+    "has_active_loan": 0
+  },
+  "aggregated_metrics": {
+    "successful_transactions_summary": {
+      "7_days": {
+        "txn_count": 5621,
+        "average_txn_size": 4365.60,
+        "ats": 2453573,
+        "success_rate": 0.98
+      },
+      "30_days": {
+        "txn_count": 35299,
+        "ats": 1398510.94,
+        "average_txn_size": 396.21,
+        "success_rate": 0.97
+      }
+    },
+    "transactions_by_initiation_mode": {
+      "Gallery": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 0, "amount": 0}
+      },
+      "QR": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 272, "amount": 1131904.92}
+      },
+      "Intent": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 384, "amount": 11528160.32}
+      },
+      "Collect": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 0, "amount": 0}
+      },
+      "Push": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 3, "amount": 112649}
+      }
+    },
+    "transactions_by_workflow_type": {
+      "C2M": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 34941, "amount": 18812666.65},
+        "90_days": {"count": 24285, "amount": 31190492.92}
+      },
+      "E2M": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 10474, "amount": 39041473.14}
+      }
+    },
+    "transactions_by_instrument_level": {
+      "UPI": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 84, "amount": 0}
+      },
+      "UPI_Lite_CC": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 173, "amount": 1385194.54}
+      },
+      "UPI_Lite": {
+        "7_days": {"count": 5, "amount": 547.48},
+        "30_days": {"count": 34, "amount": 1385194.54}
+      },
+      "Debit_Card": {
+        "7_days": {"count": 10, "amount": 138478.32},
+        "30_days": {"count": 26, "amount": 620133.38}
+      },
+      "Credit_Card": {
+        "7_days": {"count": 0, "amount": 0},
+        "30_days": {"count": 0, "amount": 5698}
+      }
+    }
+  },
+  "transactional_data": [
+    {
+      "transaction_date": "2025-06-10 16:14",
+      "transaction_id": "T25********30",
+      "instrument": "ACCOUNT - XXXXXXXXX047",
+      "context": "EGV_PHONEPEG_COMBINED",
+      "category": "NA",
+      "flow": "Received from +91*******769",
+      "amount": 420.0,
+      "status": "COMPLETED"
+    },
+    {
+      "transaction_date": "2025-06-10 16:14",
+      "transaction_id": "T25********31",
+      "instrument": "ACCOUNT - XXXXXXXXX121",
+      "context": "PEER_TO_MERCH_NA",
+      "category": "NA",
+      "flow": "Received from +91*******434",
+      "amount": 750.0,
+      "status": "COMPLETED"
+    },
+    {
+      "transaction_date": "2025-06-10 15:59",
+      "transaction_id": "T25********63",
+      "instrument": "ACCOUNT - XXXXXXXXX605",
+      "context": "NA",
+      "category": "NA",
+      "flow": "Received from +91*******436",
+      "amount": 110.0,
+      "status": "COMPLETED"
+    }
+  ]
+}
