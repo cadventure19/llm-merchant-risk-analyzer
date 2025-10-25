@@ -73,8 +73,8 @@ The script will read merchant_json.json, analyze the data using the LLM, and pri
 
 Notes
 
-This project does not store or share sensitive merchant data; only the LLM processes it temporarily in memory.
+- This project does not store or share sensitive merchant data; only the LLM processes it temporarily in memory.
 
-Adjust the temperature in llm_model.py to control response creativity (default is 0.3 for focused, deterministic summaries).
+- Adjust the temperature in llm_model.py to control response creativity (default is 0.3 for focused, deterministic summaries).
 
 
