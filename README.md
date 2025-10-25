@@ -53,8 +53,9 @@ Setup
 
 Create a .env file in the root folder with your OpenAI API key:
 
+```
 OPENAI_API_KEY=your_openai_api_key_here
-
+```
 Important: Do not commit .env to GitHub to keep your API key secure.
 
 
@@ -63,8 +64,9 @@ Usage
 Run the main script to generate a merchant risk summary:
 
 
+```
 python llm_model.py
-
+```
 
 The script will read merchant_json.json, analyze the data using the LLM, and print a structured risk summary to the console.
 
