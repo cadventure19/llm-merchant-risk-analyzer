@@ -16,13 +16,14 @@ This project leverages OpenAI’s LLM (`gpt-4o-mini`) to analyze merchant data, 
   4. Key Risk Drivers
   5. Recommendations / Next Actions
 
+```
 ## Repository Structure
 
 ├─ llm_model.py # Main code for merchant risk analysis
 ├─ merchant_json.json # Sample merchant data
 ├─ requirements.txt # Python dependencies
 
-
+```
 
 
 ## Installation
