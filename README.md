@@ -37,10 +37,11 @@ cd llm-merchant-risk-analyzer
 
 2. (Optional but recommended) Create a virtual environment:
 
+```
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-
+```
 3. Install dependencies:
 
 pip install -r requirements.txt
