@@ -15,7 +15,7 @@
       "accepted_chargeback_count": "Not Specified"
     },
     "suspicious_behavior": {
-      "suspicious_location_flag": 18,
+      "suspicious_location_flag": 1,
       "store_verified": "APPROVED",
       "active_days_ratio_90d": 0.8,
       "risk_display_name_flag": 0
