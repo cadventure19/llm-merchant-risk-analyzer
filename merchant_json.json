@@ -2,12 +2,7 @@
   "merchant_id": "M0001",
   "merchant_profile": {
     "risk_model_score": 0.01967239,
-    "risk_classification": "Low",
-    "model_classification": "L",
-    "risk_score": 0.625,
-    "merchant_classification": "L",
-    "aml_classification": 0,
-    "final_merchant_classification": "L",
+    "risk_classification": "Low"
     "fraud_risk_metrics": {
       "success_rate_txn_count_based": "Not Specified",
       "reported_fraud_transaction_count": "Not Specified",
@@ -28,7 +23,6 @@
     "rule_block_metrics": {
       "fraud_rules": "Not Specified",
       "compliance_rules": "Not Specified",
-      "preventive_rules": "Not Specified",
       "business_rules": "Not Specified"
     },
     "non_peak_hour_contribution": "Not Specified",
@@ -120,14 +114,14 @@
       "instrument": "ACCOUNT - XXXXXXXXX047",
       "context": "EGV_PHONEPEG_COMBINED",
       "category": "NA",
-      "flow": "Received from +91*******769",
+      "flow": "Received from +91********70",
       "amount": 420.0,
       "status": "COMPLETED"
     },
     {
       "transaction_date": "2025-06-10 16:14",
       "transaction_id": "T25********31",
-      "instrument": "ACCOUNT - XXXXXXXXX121",
+      "instrument": "ACCOUNT - XXXXXXXXX122",
       "context": "PEER_TO_MERCH_NA",
       "category": "NA",
       "flow": "Received from +91*******434",
@@ -136,11 +130,11 @@
     },
     {
       "transaction_date": "2025-06-10 15:59",
-      "transaction_id": "T25********63",
-      "instrument": "ACCOUNT - XXXXXXXXX605",
+      "transaction_id": "T25********85",
+      "instrument": "ACCOUNT - XXXXXXXXX666",
       "context": "NA",
       "category": "NA",
-      "flow": "Received from +91*******436",
+      "flow": "Received from +91*******438",
       "amount": 110.0,
       "status": "COMPLETED"
     }
